@@ -1,0 +1,15 @@
+server:
+  port: 8555
+spring:
+  application:
+    name: nacos-server-feign
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+feign:
+  hystrix:
+    enabled: true #ÔÚFeignÖÐ¿ªÆôHystrix
+ribbon:
+  ConnectTimeout: 5000
+  ReadTimeout: 5000

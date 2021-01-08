@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-client/client.iml" filepath="$PROJECT_DIR$/nacos-client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-client/nacos-client.iml" filepath="$PROJECT_DIR$/nacos-client/nacos-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-server/nacos-server.iml" filepath="$PROJECT_DIR$/nacos-server/nacos-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-server-feign/nacos-server-feign.iml" filepath="$PROJECT_DIR$/nacos-server-feign/nacos-server-feign.iml" />
+    </modules>
+  </component>
+</project>
