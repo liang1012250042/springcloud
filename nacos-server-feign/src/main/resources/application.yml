@@ -7,9 +7,15 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-feign:
-  hystrix:
-    enabled: true #ÔÚFeignÖÐ¿ªÆôHystrix
 ribbon:
   ConnectTimeout: 5000
   ReadTimeout: 5000
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+    max-connections-per-route: 50
+    max-connections: 200
+  hystrix:
+    enabled: true

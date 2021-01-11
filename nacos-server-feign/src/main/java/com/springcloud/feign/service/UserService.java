@@ -2,6 +2,7 @@ package com.springcloud.feign.service;
 
 
 
+import com.springcloud.config.OkHttpConfig;
 import com.springcloud.feign.config.MyselfRule;
 import com.springcloud.feign.domain.CommonResult;
 import com.springcloud.feign.domain.User;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * Created by macro on 2019/9/5.
  */
-@FeignClient(value = "nacos-client",fallback = UserFallbackService.class,configuration = MyselfRule.class)
+@FeignClient(value = "nacos-client",fallback = UserFallbackService.class,configuration = OkHttpConfig.class)
 public interface UserService {
     @PostMapping("/user/create")
     CommonResult create(@RequestBody User user);
