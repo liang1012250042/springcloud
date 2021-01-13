@@ -1,0 +1,12 @@
+server:
+  port: 4567
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://rm-bp16a0hn596y61v2rwo.mysql.rds.aliyuncs.com:3306/graduation?characterEncoding=UTF-8
+    username: clh_admin
+    password: clh_admin123456
+mybatis:
+  type-aliases-package: com.study.jwt01.model
+  mapper-locations: classpath:mappers/*.xml

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/nacos-client/nacos-client.iml" filepath="$PROJECT_DIR$/nacos-client/nacos-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-server/nacos-server.iml" filepath="$PROJECT_DIR$/nacos-server/nacos-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-server-feign/nacos-server-feign.iml" filepath="$PROJECT_DIR$/nacos-server-feign/nacos-server-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-jwt-01/study-jwt-01.iml" filepath="$PROJECT_DIR$/study-jwt-01/study-jwt-01.iml" />
     </modules>
   </component>
 </project>
